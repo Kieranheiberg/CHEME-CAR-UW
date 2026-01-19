@@ -1,0 +1,1 @@
+Use Coolterm opensource software as serial monitor with arduino. Copy output to data.csv file in same directory as ipynb file. Run ipynb file to get plots of data. make sure to rename each trail as will overwrite when saving graph as png 
