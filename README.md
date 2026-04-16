@@ -5,7 +5,7 @@ University of Washington organization that designs and builds a car that is both
 ChemE_Car_Script.ino was used during the regional competition where UW placed 2nd. This Arduino script uses TEMT6000 photosensor attached to iodine clock reaction vessel to monitor stopping mechanism process. Photosensor ouputs a analog voltage that is proportional to amount of light incident on the sensor. Clear solution = high voltage, dark opaque solution = low voltage. Cutoff voltage to determine if reaction had occurred qualitatively set at Voltage < 0.1 V. Photosensor and a LED light source were placed on opposite ends of reaction vessel to get better data resolution. When cutoff threshold breached Arduino Pro Micro would turn off 5V relay and thus cut power between Li-ion battery packs and motor, stopping the car.
 
 ## Electronics Schematic
-<img width="1373" height="763" alt="ChemE Car E Schematic" src="https://github.com/user-attachments/assets/819ef2da-d77f-4d21-a528-2b4e6a23e466" />
+<img width="761" height="577" alt="image" src="https://github.com/user-attachments/assets/11d09fbf-ef23-4840-8232-8e3ee0962e1c" />
 
 
 Components connected to Arduino:
