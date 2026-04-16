@@ -4,7 +4,7 @@ University of Washington organization that designs and builds a car that is both
 ## Competition Code
 CHEME CAR SCRIPT.ino was used during the regional competition where UW placed 2nd. This Arduino script uses TEMT6000 photosensor attached to iodine clock reaction vessel to monitor stopping mechanism process. Photosensor ouputs a analog voltage that is proportional to amount of light incident on the sensor. Clear solution = high voltage, dark opaque solution = low voltage. Cutoff voltage to determine if reaction had occurred qualitatively set at Voltage < 0.1 V. Photosensor and a LED light source were placed on opposite ends of reaction vessel to get better data resolution. When cutoff threshold breached Arduino Pro Micro would turn off 5V relay and thus cut power between Li-ion battery packs and motor, stopping the car.
 
-Schematic of electronics circuit board is below:
+## Electronics Schematic
 <img width="1373" height="763" alt="ChemE Car E Schematic" src="https://github.com/user-attachments/assets/819ef2da-d77f-4d21-a528-2b4e6a23e466" />
 
 
@@ -17,7 +17,7 @@ Components connected to Arduino:
 - Button started script; actuated servo 1 and 2 then turned on power flow from battery pack to motor via 5V relay. Activated by digital pin on Arduino board
 - Computer fan was retroffitted with neodynium magnets to act as DIY stirring mechanism for reaction beaker in conjugtion with ceramic pill stir bar
 
-Pictures of car:
+## Car Pictures
 <img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/ba549cec-5ed2-44db-8df2-cff0c93c7b05" />
 <img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/abecc2df-3991-45a3-8e52-955f7a03cdc2" />
 <img width="975" height="1300" alt="image" src="https://github.com/user-attachments/assets/1b86a1c0-544c-46ce-9a5e-4538d5edf690" />
