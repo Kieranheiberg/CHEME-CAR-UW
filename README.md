@@ -20,6 +20,7 @@ Components connected to Arduino:
 ## Car Pictures
 <img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/ba549cec-5ed2-44db-8df2-cff0c93c7b05" />
 <img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/abecc2df-3991-45a3-8e52-955f7a03cdc2" />
+<img width="975" height="1300" alt="image" src="https://github.com/user-attachments/assets/9439dadd-3cf5-43db-8701-18987d174d7a" />
 <img width="975" height="1300" alt="image" src="https://github.com/user-attachments/assets/1b86a1c0-544c-46ce-9a5e-4538d5edf690" />
 <img width="975" height="1300" alt="image" src="https://github.com/user-attachments/assets/9557a0b3-c5eb-44bd-b038-8b9f32dfae75" />
 
