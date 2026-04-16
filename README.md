@@ -1,8 +1,8 @@
 # UW CHEM E CAR
 University of Washington organization that designs and builds a car that is both chemically powered and stopped. 2025-26' car utilized Li-ion coin cells manufactured at UW CEI Testbeds for propulsion and an iodine clok reaction as a stopping mechanism. This repo contains all Arduino Code and testing scripts for UW ChemE Car team 2025-26. 
 
-CHEME CAR SCRIPT.ino was used during the regional competition where UW placed 2nd. This arduinosScript reads analog output of TEMT6000 attached to iodine clock reaction vessel.
-Photosensor ouputs a analog voltage that is proportional to amount of light incident on the sensor. Clear solution = high voltage, dark opaque solution = low voltage. Cutoff voltage to determine if reaction had occurred set as Voltage < 0.1 V. Photosensor and a LED light source were placed on opposite ends of reaction vessel to get better resolution. When cutoff threshold breached Arduino Pro Micro would turn off 5V relay and thus cut power between Li-ion battery packs and motor. 
+## Competition Code
+CHEME CAR SCRIPT.ino was used during the regional competition where UW placed 2nd. This Arduino script uses TEMT6000 photosensor attached to iodine clock reaction vessel to monitor stopping mechanism process. Photosensor ouputs a analog voltage that is proportional to amount of light incident on the sensor. Clear solution = high voltage, dark opaque solution = low voltage. Cutoff voltage to determine if reaction had occurred qualitatively set at Voltage < 0.1 V. Photosensor and a LED light source were placed on opposite ends of reaction vessel to get better data resolution. When cutoff threshold breached Arduino Pro Micro would turn off 5V relay and thus cut power between Li-ion battery packs and motor, stopping the car.
 
 Schematic of electronics circuit board is below:
 <img width="1373" height="763" alt="ChemE Car E Schematic" src="https://github.com/user-attachments/assets/819ef2da-d77f-4d21-a528-2b4e6a23e466" />
