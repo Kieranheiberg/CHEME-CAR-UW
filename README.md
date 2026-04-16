@@ -15,7 +15,7 @@ Components connected to Arduino:
 - Capacitor helped balance high current draw when starting motor
 - Emergency toggle switch acted as safety cutoff in case car failed or spilled chemicals
 - Button started script; actuated servo 1 and 2 then turned on power flow from battery pack to motor via 5V relay. Activated by digital pin on Arduino board
-- Computer fan was retroffitted with neodynium magnets to act as DIY stirring mechanism for reaction beaker in conjugtion with ceramic pill stir bar
+- Computer fan was retroffitted with neodynium magnets to act as DIY stirring mechanism for reaction beaker in conjunction with ceramic pill stir bar
 
 ## Car Pictures
 <img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/ba549cec-5ed2-44db-8df2-cff0c93c7b05" />
