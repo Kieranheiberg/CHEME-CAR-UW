@@ -1,7 +1,8 @@
-Arduino Code and testing scripts for UW ChemE Car team 2025-26. CHEME CAR SCRIPT.ino was used during the competition. Script reads analog output of TEMT6000 attached to iodine clock reaction vessel.
-Photosensor ouputs analog voltage proportional to amount of light incident on the sensor. Clear solution = high voltage, dark opaque solution = low voltage. Cutoff voltage to determine if
-reaction had occurred set as Voltage < 0.1 V. Photosensor and a LED light source were placed on opposite ends of reaction vessel to get better resolution. When cutoff threshold breached Arduino would turn off
-5V relay and thus cut power between Li-ion battery packs and motor. 
+# UW CHEM E CAR
+University of Washington organization that designs and builds a car that is both chemically powered and stopped. 2025-26' car utilized Li-ion coin cells manufactured at UW CEI Testbeds for propulsion and an iodine clok reaction as a stopping mechanism. This repo contains all Arduino Code and testing scripts for UW ChemE Car team 2025-26. 
+
+CHEME CAR SCRIPT.ino was used during the regional competition where UW placed 2nd. This arduinosScript reads analog output of TEMT6000 attached to iodine clock reaction vessel.
+Photosensor ouputs a analog voltage that is proportional to amount of light incident on the sensor. Clear solution = high voltage, dark opaque solution = low voltage. Cutoff voltage to determine if reaction had occurred set as Voltage < 0.1 V. Photosensor and a LED light source were placed on opposite ends of reaction vessel to get better resolution. When cutoff threshold breached Arduino Pro Micro would turn off 5V relay and thus cut power between Li-ion battery packs and motor. 
 
 Schematic of electronics circuit board is below:
 <img width="1373" height="763" alt="ChemE Car E Schematic" src="https://github.com/user-attachments/assets/819ef2da-d77f-4d21-a528-2b4e6a23e466" />
@@ -15,3 +16,13 @@ Components connected to Arduino:
 - Emergency toggle switch acted as safety cutoff in case car failed or spilled chemicals
 - Button started script; actuated servo 1 and 2 then turned on power flow from battery pack to motor via 5V relay. Activated by digital pin on Arduino board
 - Computer fan was retroffitted with neodynium magnets to act as DIY stirring mechanism for reaction beaker in conjugtion with ceramic pill stir bar
+
+Pictures of car:
+<img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/ba549cec-5ed2-44db-8df2-cff0c93c7b05" />
+<img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/abecc2df-3991-45a3-8e52-955f7a03cdc2" />
+<img width="975" height="1300" alt="image" src="https://github.com/user-attachments/assets/1b86a1c0-544c-46ce-9a5e-4538d5edf690" />
+<img width="975" height="1300" alt="image" src="https://github.com/user-attachments/assets/9557a0b3-c5eb-44bd-b038-8b9f32dfae75" />
+
+
+
+
