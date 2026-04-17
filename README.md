@@ -9,13 +9,13 @@ ChemE_Car_Script.ino was used during the regional competition where UW placed 2n
 
 
 Components connected to Arduino:
-- TEMT6000 photosensor ouputted analog signal voltage
-- 5V relay allowed arduino to control power flow between batteries and motor
-- 2x SG90 Servos hydrallically injected reactants into reaction vessel at the start of the competition trial
-- Capacitor helped balance high current draw when starting motor
-- Emergency toggle switch acted as safety cutoff in case car failed or spilled chemicals
-- Button started script; actuated servo 1 and 2 then turned on power flow from battery pack to motor via 5V relay. Activated by digital pin on Arduino board
-- Computer fan was retroffitted with neodynium magnets to act as DIY stirring mechanism for reaction beaker in conjunction with ceramic pill stir bar
+- TEMT6000 photosensor ouputs analog signal voltage.
+- 5V relay allows Arduino to actuate power flow between batteries and motor.
+- 2x SG90 Servos hydrallically injected reactants into reaction vessel at the start of the competition trial.
+- Capacitor helped balance high current draw at motor startup.
+- Emergency toggle switch acts as safety cutoff in case car fails or spills chemicals.
+- Start button initiates script; Script actuates servo 1 and 2 then turns on power flow from battery pack to motor via 5V relay.
+- Computer fan was retroffitted with neodynium magnets in conjunction with ceramic pill stir bar is used as DIY stirring mechanism for reaction beaker.
 
 ## Car Pictures
 <img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/ba549cec-5ed2-44db-8df2-cff0c93c7b05" />
